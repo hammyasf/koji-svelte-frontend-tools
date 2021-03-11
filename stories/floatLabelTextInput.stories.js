@@ -1,5 +1,5 @@
 import { action } from "@storybook/addon-actions";
-import FloatLabelTextInput from "../src/index";
+import { FloatLabelTextInput } from "../src/index";
 
 export default {
   title: "FloatLabelTextInput",
