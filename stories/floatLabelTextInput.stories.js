@@ -1,4 +1,3 @@
-import { action } from "@storybook/addon-actions";
 import { FloatLabelTextInput } from "../src/index";
 
 export default {
@@ -6,7 +5,7 @@ export default {
   component: FloatLabelTextInput,
 };
 
-export const Text = () => ({
+export const Default = () => ({
   Component: FloatLabelTextInput,
   props: { value: "", placeholder: "Placeholder here..." },
 });

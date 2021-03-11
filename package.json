@@ -46,6 +46,7 @@
   ],
   "dependencies": {
     "@storybook/addon-docs": "^6.1.21",
+    "@storybook/addon-svelte-csf": "^1.0.0",
     "@storybook/addon-viewport": "^6.1.21",
     "storybook-addon-outline": "^1.2.0",
     "storybook-addon-paddings": "^4.0.0",
