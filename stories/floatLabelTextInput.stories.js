@@ -8,10 +8,34 @@ export default {
 
 export const Text = () => ({
   Component: FloatLabelTextInput,
-  props: { value: "", placeholder: "Hello There..." },
+  props: { value: "", placeholder: "Placeholder here..." },
 });
 
-export const Emoji = () => ({
+export const PersistentLabel = () => ({
   Component: FloatLabelTextInput,
-  props: { value: "", placeholder: "👍 💯😀 😎" },
+  props: {
+    value: "",
+    placeholder: "Placeholder here...",
+    persistentLabel: "Label here",
+  },
+});
+
+export const SupportLabel = () => ({
+  Component: FloatLabelTextInput,
+  props: {
+    value: "",
+    placeholder: "Placeholder here...",
+    supportLabel: "Some Support Text here",
+  },
+});
+
+export const ErrorLabel = () => ({
+  Component: FloatLabelTextInput,
+  props: {
+    value: "",
+    placeholder: "Placeholder here...",
+    supportLabel: "Some Support Text here",
+    errorLabel: "Hey you got some error",
+    isError: true,
+  },
 });
