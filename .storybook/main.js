@@ -9,5 +9,7 @@ module.exports = {
     "@storybook/addon-viewport",
     "@storybook/addon-docs",
     "storybook-addon-paddings",
+    "storybook-mobile",
+    "storybook-addon-outline",
   ],
 };
